@@ -54,7 +54,7 @@ main > div {
 }
 
 #formulario >p{
-    text-transform: uppercase;
+    text-transform: none;
     font-size: var(--tamanho-fonte-sm);
     color: var(--cor-cinza-escuro1);
 }
@@ -84,4 +84,21 @@ main > div {
 #secao-instalacao img {
     width: 133px;
     height: 39px;
+}
+
+.input-file {
+    display: none; /* Esconde o input padrão */
+}
+
+.caixa-upload {
+    height: 50px;
+    background-color: var(--cor-cinza-escuro1); /* Cor de fundo da sua caixa */
+    border-radius: 10px;
+    display: flex; /* Para centralizar o texto se necessário */
+    justify-content: center;
+    align-items: center;
+}
+
+#input-file{
+    background-color: var(--cor-cinza-escuro1);
 }
