@@ -43,7 +43,7 @@
                 </a>
 
                 <a href="#">
-                    <img id="Foto-perfil" src="../images/Captura de tela 2025-08-28 102043.png" alt="Foto de perfil">
+                    <img class="foto-perfil" src="../images/Zago.png" alt="Foto de perfil">
                 </a>
 
             </div>
@@ -132,24 +132,67 @@
             </section>
             <!-- Fim Storys -->
 
+            <!--inicio cadstro publi-->
             <section id="cadastro-publi" class="">
                 <h2>Publicação</h2>
 
                 <form action="">
-                    <textarea name="" id=""></textarea>
+                    <textarea name="" id="" placeholder="Digite a descrição do post..."></textarea>
 
-                    <div>
+                    <footer>
                         <div class="caixa-upload">
                             <label for="input-file" class="label-upload">Faça upload da sua imagem aqui...</label>
                             <input type="file" id="input-file" class="input-file">
                         </div>
 
-                        <button type="submit" class="formulario-botao-azul">Entrar</button>
+                        <button type="submit" class="formulario-botao-azul">Postar</button>
 
+                    </footer>
 
-                    </div>
                 </form>
             </section>
+            <!--fim cadastro publi-->
+
+            <section id="publicacoes">
+                <!-- Inicio card publicação -->
+                 <article class="card-publi">
+                     <header>
+                        <a href="#">
+                            <img class="foto-perfil" src="../images/Zago.png" alt="Foto de perfil">
+                             Zago
+                             <img src="../images/Verificado.svg" alt="">
+                        </a>
+                     </header>
+
+                     <figure>
+                         <img class="imagem-publicacao" src="../images/foto do feed.svg" alt="">
+                         <figcaption class="descricao-publicacao">
+                             Zago:
+                             <p> De chuteira no pé e a mente no futuro. Essa é a minha rotina. </p>
+                         </figcaption>
+
+                         <div class="interacoes-publicacao">
+                             <button>
+                                <img src="../images/icone-coracao-preto.svg" alt="">
+                             </button>
+
+                             <button>
+                                <img src="../images/icone-comentario-preto.svg" alt="">
+                             </button>
+                             
+                             <span>150 curtidas</span>
+
+                         </div>
+
+                     </figure>
+
+                     <button type="button">Ver mais comentarios...</button>
+
+                 </article>
+                 <!-- Fim do card publicação-->
+            </section>
+
+            <!--fim do cadastro-->
 
         </div>
     </main>

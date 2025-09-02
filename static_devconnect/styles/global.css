@@ -34,6 +34,7 @@
     margin: 0;
     box-sizing: border-box;
     /* o valor total do tamanho do elemento conta tanto com espaços interno/extremo e as bordas*/
+    outline-color: var(--cor-azul);
 }
 
 body {
@@ -74,16 +75,22 @@ h1 {
 }
 
 .caixa-upload {
-    height: 50px;
-    background-color: var(--cor-cinza-escuro1); /* Cor de fundo da sua caixa */
-    border-radius: 10px;
-    display: flex; /* Para centralizar o texto se necessário */
-    justify-content: center;
-    align-items: center;
+    display: inline-block;
+    width: 100%; 
+    max-width: 300px;
+    min-height: 35px;
+    height: 35px;
+    padding: 5px;
+    background-color: var(--cor-cinza-escuro4);
+    color: var(--cor-cinza-escuro3);
+    text-align: center;
+    font-weight: 600;
+    border-radius: var(--borda-arredondada);
+
 }
 
 /* cabeçalho */
-#cabeçalho {
+#cabecalho {
     width: 100%;
     /*100% da janela de visualização*/
     height: 80px;
@@ -120,7 +127,7 @@ h1 {
     align-items: center;
 }
 
-#Foto-perfil {
+.foto-perfil {
     width: 40px;
     height: 40px;
     object-fit: cover;
