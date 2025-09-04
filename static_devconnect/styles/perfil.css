@@ -1,0 +1,100 @@
+main {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #e2e2e2;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container-flex-perfil {
+    background-color: #f2f2f2;
+    width: 90%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 10;
+}
+
+
+#bio-perfil{
+    background-color: var(--cor-branco);
+    font-weight: 600;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 80px;
+    row-gap: 80px;
+    flex-wrap: wrap;
+    border-bottom: 2px solid black ;
+}
+
+.foto-perfil-bio {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    max-width: 110px;
+    object-fit: cover;
+    object-position: center;
+    display: flex;
+  flex-direction: column;
+}
+#cadastro-publi{
+    display: flex;
+    flex-direction: column;
+
+
+    max-width: 100%;
+    background-color: #f2f2f2;
+
+}
+#cadastro-publi > h2{
+    font-size: var(--tamanho-fonte-lg);
+    color: black;
+}
+.post-h2{
+    margin-bottom: 12px;
+    font-size: 15px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.posts h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: var(--cor-preto);
+    display: flex;
+    justify-content: center;
+}
+
+.post {
+    background: var(--cor-branco);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.post h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.post p {
+    margin-bottom: 10px;
+}
+
+.post-info {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.post a {
+    font-size: 14px;
+    color: var(--cor-cinza);
+    text-decoration: none;
+}
+
