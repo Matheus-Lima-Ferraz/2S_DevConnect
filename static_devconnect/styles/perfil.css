@@ -1,14 +1,14 @@
 main {
     min-height: 100vh;
     width: 100%;
-    background-color: #e2e2e2;
+    background-color: var(--cor-cinza-claro2);
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
 
 .container-flex-perfil {
-    background-color: #f2f2f2;
+    background-color: var(--cor-cinza-claro);
     width: 90%;
     max-width: 1000px;
     display: flex;
@@ -27,7 +27,7 @@ main {
     column-gap: 80px;
     row-gap: 80px;
     flex-wrap: wrap;
-    border-bottom: 2px solid black ;
+    border-bottom: 2px solid var(--cor-preto) ;
 }
 
 .foto-perfil-bio {
@@ -46,17 +46,17 @@ main {
 
 
     max-width: 100%;
-    background-color: #f2f2f2;
+    background-color: var(--cor-cinza-claro);
 
 }
 #cadastro-publi > h2{
     font-size: var(--tamanho-fonte-lg);
-    color: black;
+    color: var(--cor-preto);
 }
 .post-h2{
     margin-bottom: 12px;
     font-size: 15px;
-    color: black;
+    color: var(--cor-preto);
     display: flex;
     justify-content: center;
 }
@@ -94,7 +94,7 @@ main {
 
 .post a {
     font-size: 14px;
-    color: var(--cor-cinza);
+    color: var(--cor-cinza-escuro1);
     text-decoration: none;
 }
 
